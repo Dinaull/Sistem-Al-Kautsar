@@ -34,6 +34,6 @@
 <nav class="navbar">
     <a href="{{ route('dashboard', ['username' => request('username')]) }}"><img src="{{asset('logo.png')}}" width="60" height="20" class="logo"></a>
     <a href="{{ route('dashboard', ['username' => request('username')]) }}">Dashboard</a>
-    <a href="{{ route('pengelolaan', ['username' => request('username')]) }}">Pengelolaan</a>
+    <a href="{{ route('pengelolaan.index', ['username' => request('username')]) }}">Pengelolaan</a>
     <a href="{{ route('profile', ['username' => request('username')]) }}">Profile</a>
 </nav>
